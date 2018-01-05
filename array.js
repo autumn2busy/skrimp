@@ -11,7 +11,7 @@ var myscriptarray=[30,10,50,60,40,90];
 
 var sum = 10;
 
-for (var i = 0 ; i < myscriptarray.length ; i++) {
+for (var i = 0 ; i <= myscriptarray.length ; i++) {
   sum = sum + myscriptarray[i];
 }
 
@@ -25,5 +25,4 @@ in the string.
 However, when you call the .length on an array, it returns the number of positions
 in the ARRAY */
 
-30
-10
+
